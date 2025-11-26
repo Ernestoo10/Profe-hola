@@ -1,0 +1,45 @@
+Estimados/as,
+
+El archivo adjunto (o previamente compartido) tiene como único propósito la visualización de comentarios y el seguimiento de las notas/avances del proyecto.
+
+El presente documento formaliza la solicitud para el desarrollo de un Portal Web con funcionalidad de inicio de sesión, el cual debe ser implementado utilizando el lenguaje de programación C# y con conectividad a una base de datos SQL Server.
+
+Plan de Revisiones y Entregables
+El proyecto se estructurará en tres revisiones clave. Cada avance o entrega deberá realizarse a través de la plataforma GitHub.
+
+1. Primera Revisión (Diseño y Estructura)
+Alcance: Se presentará el trabajo realizado en clases, enfocado en el diseño y la estructura de la interfaz.
+
+Requisito: Debe incluir el diseño inicial (elaborado en papel) y su posterior implementación en herramientas tecnológicas (maquetación), sin incluir funcionalidades clave de conexión o lógica de negocio.
+
+2. Segunda Revisión (Conectividad y Flujo Básico)
+Alcance: Implementación del módulo de inicio de sesión y la conexión a la base de datos.
+
+Funcionalidad:
+
+La aplicación debe solicitar el inicio de sesión.
+
+Se debe validar la conectividad, cubriendo escenarios exitosos y no exitosos.
+
+Tras el ingreso exitoso, la aplicación debe pasar a una segunda pantalla que muestre:
+
+El usuario actualmente logueado.
+
+El rol del usuario.
+
+Un botón de "Cerrar Sesión" que redirija al inicio de sesión.
+
+3. Tercera Revisión (Seguridad y Buenas Prácticas)
+Alcance: Integración de aspectos de seguridad y aplicación de patrones de desarrollo.
+
+Requisitos Técnicos:
+
+Seguridad: Implementar aspectos básicos de seguridad y validación basados en las directrices de OWASP (Open Web Application Security Project).
+
+Conexión a BD: Asegurar la integridad y seguridad al abrir y cerrar la conexión con la base de datos.
+
+Estructura: El proyecto debe seguir la metodología MVC (Modelo-Vista-Controlador) con el ordenamiento sugerido.
+
+Optimización: Se requiere la utilización de Procedimientos Almacenados (Stored Procedures) cuando sean necesarios.
+
+Atentamente,
